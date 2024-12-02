@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lora', serif;
+}
+body {
+    margin-top: 100px;
+}
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 50px;
+    box-shadow: 0 1px 5px #696967;
+    width: 100%;
+    z-index: 1000; 
+    background-color: #000;
+}
+header .logo img {
+    width: 200px;
+}
+.login-container {
+    background-color: #fff;
+    padding: 30px;
+    margin: auto;
+    max-width: 400px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+}
+.login-container h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #000;
+}
+.login-container form {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+.login-container label {
+    font-size: 16px;
+    margin: 10px 0 5px;
+    text-align: left;
+    color: #000;
+}
+.login-container input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+}
+.login-container input:focus {
+    outline: none;
+    border-color: #cba95c;
+    box-shadow: 0 0 5px rgba(203, 169, 92, 0.5);
+}
+.login-container button {
+    background-color: #cba95c;
+    color: #fff;
+    border: 1px solid #cba95c;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.login-container button:hover {
+    background-color: transparent;
+    color: #000;
+}
+p {
+    font-size: 16px;
+    color: #000; 
+    text-align: center; 
+    margin-top: 13px; 
+    font-style: italic;
+}
+footer {
+    background-color: #000;
+    color: #fff;
+    margin-top: 15px;
+    padding: 20px;
+    box-shadow: 0 1px 5px #696967;
+    text-align: center;
+}
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.footer-socials, .footer-contact {
+    flex: 1;
+}
+.footer-socials ul, .footer-contact ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.footer-socials ul li, .footer-contact ul li {
+    margin: 10px 0;
+}
+.footer-socials ul li i, .footer-contact ul li i {
+    margin-right: 10px;
+    color: #cba95c;
+}
+.footer-socials ul li a, .footer-contact ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+}
+.footer-socials ul li a:hover, .footer-contact ul li a:hover {
+    color: #cba95c;
+}
+.footer-logo {
+    flex: 1;
+    text-align: center;
+}
+.footer-logo img {
+    width: 250px;
+    height: auto;
+}
